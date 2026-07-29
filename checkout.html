@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout | AL SAYYED</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h2>AL SAYYED</h2>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i>
+<span id="cart-count">0</span>
+</a>
+
+</nav>
+
+</header>
+
+<section class="checkout-page">
+
+<h1>Checkout</h1>
+
+<input
+type="text"
+id="name"
+placeholder="Full Name"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+<textarea
+id="address"
+placeholder="Full Address"
+required></textarea>
+
+<h2>Order Summary</h2>
+
+<div id="orderSummary">
+
+<p>Your cart is empty.</p>
+
+</div>
+
+<h2 id="checkoutTotal">
+
+Grand Total : ₹0
+
+</h2>
+
+<h3>Payment Method</h3>
+
+<label>
+
+<input
+type="radio"
+name="payment"
+checked>
+
+Cash on Delivery (COD)
+
+</label>
+
+<br><br>
+<button
+type="button"
+class="btn"
+onclick="placeOrder()">
+
+Place Order on WhatsApp
+
+</button>
+
+</section>
+
+<footer>
+
+<p>© 2026 AL SAYYED. All Rights Reserved.</p>
+
+<div class="footer-links">
+
+<a href="privacy.html">Privacy Policy</a>
+
+<a href="shipping.html">Privacy Policy</a>
+
+<a href="contact.html">Contact Us</a>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

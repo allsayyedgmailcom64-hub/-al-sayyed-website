@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AL SAYYED | Premium Perfumes</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h2>AL SAYYED</h2>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i>
+<span id="cart-count">0</span>
+</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="slider">
+
+<img
+id="slider-img"
+src="images/banner1.jpg"
+alt="Banner">
+
+</div>
+
+<div class="hero-text">
+
+<h1>
+Premium Perfume Collection
+</h1>
+
+<p>
+Luxury Attar, Perfume,
+Solid Perfume &
+Bakhoor
+</p>
+
+<a href="products.html"
+class="btn">
+
+Shop Now
+
+</a>
+
+</div>
+
+</section>
+
+<section class="search-section">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Product...">
+
+<button
+onclick="searchProduct()">
+
+Search
+
+</button>
+
+</section>
+
+<section class="categories">
+
+<h2>
+
+Categories
+
+</h2>
+
+<div class="category-grid">
+
+<a href="products.html#attar">
+Attar
+</a>
+
+<a href="products.html#perfume">
+Perfume
+</a>
+
+<a href="products.html#solid">
+Solid Perfume
+</a>
+
+<a href="products.html#bakhoor">
+Bakhoor
+</a>
+
+</div>
+
+</section>
+<section class="featured-products">
+
+<h2>Featured Products</h2>
+
+<div class="products">
+
+<div class="product-card" id="champion">
+<img src="images/champion.jpg" alt="Champion">
+<h3>Champion</h3>
+<p>₹299</p>
+<button onclick="addToCart('Champion',299)">Add to Cart</button>
+</div>
+
+<div class="product-card" id="rose">
+<img src="images/rose-attar.jpg" alt="Rose Attar">
+<h3>Rose Attar</h3>
+<p>₹249</p>
+<button onclick="addToCart('Rose Attar',249)">Add to Cart</button>
+</div>
+
+<div class="product-card" id="solid">
+<img src="images/solid-perfume.jpg" alt="Solid Perfume">
+<h3>Solid Perfume</h3>
+<p>₹199</p>
+<button onclick="addToCart('Solid Perfume',199)">Add to Cart</button>
+</div>
+
+<div class="product-card" id="bakhoor">
+<img src="images/bakhoor.jpg" alt="Bakhoor">
+<h3>Bakhoor</h3>
+<p>₹399</p>
+<button onclick="addToCart('Bakhoor',399)">Add to Cart</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>About AL SAYYED</h2>
+
+<p>
+AL SAYYED brings premium quality perfumes, attars,
+solid perfumes and bakhoor crafted for long-lasting
+fragrance and luxury.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 AL SAYYED. All Rights Reserved.</p>
+
+<div class="footer-links">
+<a href="privacy.html">Privacy Policy</a>
+<a href="shipping.html">Shipping Policy</a>
+<a href="contact.html">Contact Us</a>
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

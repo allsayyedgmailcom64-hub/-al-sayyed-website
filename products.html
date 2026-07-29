@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products | AL SAYYED</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h2>AL SAYYED</h2>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i>
+<span id="cart-count">0</span>
+</a>
+
+</nav>
+
+</header>
+
+<section class="featured-products">
+
+<h2>Our Products</h2>
+
+<div class="products">
+
+<!-- Champion -->
+
+<div class="product-card" id="champion">
+
+<img src="images/champion.jpg" alt="Champion">
+
+<h3>Champion</h3>
+
+<p>₹299</p>
+
+<button class="btn"
+onclick="addToCart('Champion',299)">
+Add to Cart
+</button>
+
+<a href="checkout.html" class="btn">
+Buy Now
+</a>
+
+</div>
+
+<!-- Rose Attar -->
+
+<div class="product-card" id="rose">
+
+<img src="images/rose-attar.jpg" alt="Rose Attar">
+
+<h3>Rose Attar</h3>
+
+<p>₹249</p>
+
+<button class="btn"
+onclick="addToCart('Rose Attar',249)">
+Add to Cart
+</button>
+
+<a href="checkout.html" class="btn">
+Buy Now
+</a>
+
+</div>
